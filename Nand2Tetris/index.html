@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CS 160 Stuff</title>
+  <link rel="stylesheet" type="text/css" href="../mystyles/screen.css">
+</head>
+<body class="index">
+
+    <ul class="nav">
+    
+        <div class="logo">
+            <a href="../index.html">My Portfolio</a>
+        </div>
+      
+        <li><a href="../CS160/index.html"> CS 160 Misc</a></li>
+        <li><a href="../Logisim/index.html"> Logisim</a></li>
+        <li><a href="../Python/index.html"> Python Programs</a></li>
+        <li><a href="../PJ/index.html"> p5.js Page</a></li>
+        <li><a href="../Scratch_Programs/index.html"> Scratch Programs</a></li>
+        <li><a href="../Nand2Tetris/index.html">Nand2Tetris</a></li>
+      
+      </ul>
+<div class="banner">
+  <img class="banner-image" src="../img/1.jpg" height='220'>
+      
+  <h2><span>Nand2Tetris Items</span></h2>
+</div>
+  
+<div id="main" role="main">
+<h1 style="text-align:center;"></h1>
+
+
+<button class="collapsible">And HDL (Click to Open/Close)</button>
+<div class="content">
+<div class="example">
+  <h3>And HDL</h3>
+<img src="../img/HDL/andhdl.png">
+</div>
+</div>
+<button class="collapsible">And16 HDL (Click to Open/Close)</button>
+<div class="content">
+<div class="example">
+  <h3>And16 HDL</h3>
+<img src="../img/HDL/and16hdl.png">
+</div>
+</div>
+<button class="collapsible">DMux HDL (Click to Open/Close)</button>
+<div class="content">
+<div class="example">
+  <h3>DMux HDL</h3>
+<img src="../img/HDL/dmuxhdl.png">
+</div>
+</div>
+<button class="collapsible">DMux 4way HDL (Click to Open/Close)</button>
+<div class="content">
+<div class="example">
+  <h3>DMux 4way HDL</h3>
+<img src="../img/HDL/dmux4wayhdl.png">
+</div>
+</div>
+<button class="collapsible">DMux 8way HDL (Click to Open/Close)</button>
+<div class="content">
+<div class="example">
+  <h3>DMux 8way HDL</h3>
+<img src="../img/HDL/dmux8wayhdl.png">
+</div>
+</div>
+<button class="collapsible">Mux HDL (Click to Open/Close)</button>
+<div class="content">
+<div class="example">
+  <h3>Mux HDL</h3>
+<img src="../img/HDL/muxhdl.png">
+</div>
+</div>
+<button class="collapsible">Mux4Way16 HDL (Click to Open/Close)</button>
+<div class="content">
+<div class="example">
+  <h3>Mux4way16 HDL</h3>
+<img src="../img/HDL/4waymux16.png">
+</div>
+</div>
+<button class="collapsible">Mux16 HDL (Click to Open/Close)</button>
+<div class="content">
+<div class="example">
+  <h3>Mux16 HDL</h3>
+<img src="../img/HDL/mux16.png">
+</div>
+</div>
+<button class="collapsible">Mux8Way16 HDL (Click to Open/Close)</button>
+<div class="content">
+<div class="example">
+  <h3>Mux8way16 HDL</h3>
+<img src="../img/HDL/8waymux16.png">
+</div>
+</div>
+<button class="collapsible">Not HDL (Click to Open/Close)</button>
+<div class="content">
+<div class="example">
+  <h3>Not HDL</h3>
+<img src="../img/HDL/nothdl.png">
+</div>
+</div>
+<button class="collapsible">Not16 HDL (Click to Open/Close)</button>
+<div class="content">
+<div class="example">
+  <h3>Not16 HDL</h3>
+<img src="../img/HDL/not16hdl.png">
+</div>
+</div>
+<button class="collapsible">Or HDL (Click to Open/Close)</button>
+<div class="content">
+<div class="example">
+  <h3>Or HDL</h3>
+<img src="../img/HDL/orhdl.png">
+</div>
+</div>
+<button class="collapsible">Or 8way HDL (Click to Open/Close)</button>
+<div class="content">
+<div class="example">
+  <h3>Or8way HDL</h3>
+<img src="../img/HDL/or8wayhdl.png">
+</div>
+</div>
+<button class="collapsible">Or16 HDL (Click to Open/Close)</button>
+<div class="content">
+<div class="example">
+  <h3>Or16</h3>
+<img src="../img/HDL/or16hdl.png">
+</div>
+</div>
+<button class="collapsible">Xor HDL (Click to Open/Close)</button>
+<div class="content">
+<div class="example">
+  <h3>Xor HDL</h3>
+<img src="../img/HDL/xorhdl.png">
+</div>
+</div>
+
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+</script>
+
+</body>
+</html>
