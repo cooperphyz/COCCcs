@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CS 160 Stuff</title>
+  <link rel="stylesheet" type="text/css" href="../../mystyles/screen.css">
+</head>
+<body class="index">
+
+    <ul class="nav">
+    
+        <div class="logo">
+            <a href="../index.html">My Portfolio</a>
+        </div>
+        <li><a href="../BlueJ/index.html"> BlueJ</a></li>
+        <li><a href="../CS162/index.html"> CS 162 Misc</a></li>
+      
+      </ul>
+<div class="banner">
+  <img class="banner-image" src="../../img/2.jpg" height='220'>
+      
+  <h2><span>BlueJ</span></h2>
+</div>
+  
+<div id="main" role="main">
+<h1 style="text-align:center;"></h1>
+
+<div class="example">
+  <h3>BlueJ Chapter Five</h3>
+  <li><a href="https://docs.google.com/document/d/1xecPWRRLS3mpO3TWlKJEAvM4LJAs8dXYFJF8YqaALJw/edit?usp=sharing">Chapter One DOC</a></li>
+  <br>
+</div>
+
+</div>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+  </script>
+
+</body>
+</html>
