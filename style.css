@@ -5,6 +5,8 @@ html, body {
   width: 100%;
   font-family: 'Poppins', sans-serif;
   color: #222;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 .navbar {
   padding: .8rem;
@@ -17,20 +19,25 @@ html, body {
 }
 .carousel-inner img {
   width: 100%;
-  height: 50%;
+  height: 50% !important;
+  max-height: 600px;
+}
+.h2 {
+  transition: 0.3s;
 }
 .carousel-caption {
+  transition: 0.2s;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
 .carousel-caption h1 {
-  font-size: 500%;
+  font-size: 9vw;
   text-transform: uppercase;
   text-shadow: 1px 1px 10px #000;
 }
 .carousel-caption h3 {
-  font-size: 200%;
+  font-size:3vw;
   font-weight: 500;
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 1rem;
@@ -43,6 +50,7 @@ html, body {
   padding: 1rem;
   border-radius: 0;
 }
+
 
 footer {
   background-color: #3f3f3f;
@@ -108,7 +116,12 @@ figure {
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   will-change: transform;
+  
 }
+.tales {
+  width: 100%;
+}
+
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
     padding: 1rem;
